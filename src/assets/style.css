@@ -7,11 +7,12 @@ body {
 
     width: 1000px;
     margin: 0 auto;
-    padding: 0 20px 20px 20px;   
+    padding: 0 20px 20px 20px; 
+    background-position: center;  
 }
 
 html {
-    background-color: #d2bdfb;
+    background-color: green;
     font-size: 16px;   
     font-family: "Open Sans", sans-serif; 
 }
@@ -32,6 +33,7 @@ h3{
 a:link, a:visited {
     background-color: #1f0543;
     color: white;
+    border-radius: 20px;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -39,7 +41,7 @@ a:link, a:visited {
     }
     
     a:hover, a:active {
-    background-color: #140628;
+    background-color: blueviolet;
     }
 
 #kickstart{
